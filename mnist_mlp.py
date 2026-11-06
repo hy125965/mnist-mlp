@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use("Agg")                      # 창을 띄우지 않고 그림을 파일로만 저장 (터미널 실행용)
 import matplotlib.pyplot as plt
 
-EPOCHS, BATCH, LR, HIDDEN = 3, 128, 1e-3, 128   # ← 바꿔 보며 실험하는 값들 (디버깅 연습 포인트)
+EPOCHS, BATCH, LR, HIDDEN = 5, 128, 1e-3, 256   # ← 바꿔 보며 실험하는 값들 (디버깅 연습 포인트)
 
 torch.manual_seed(0)
 device = "cuda" if torch.cuda.is_available() else "cpu"
