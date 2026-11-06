@@ -1,0 +1,8 @@
+# .gitignore — 버전 관리에서 제외할 것
+.venv/
+data/
+__pycache__/
+*.pt
+*.png
+history.json
+.vscode/
